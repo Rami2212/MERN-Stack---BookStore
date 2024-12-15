@@ -27,7 +27,7 @@ const BookModel = ({ book, onClose }) => {
                     <BiUserCircle className='text-red-300 text-2xl' />
                     <h2 className='my-1'>{book.author}</h2>
                 </div>
-                <p className='my-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rerum impedit nesciunt ipsa consequuntur quod similique corrupti blanditiis accusamus inventore.</p>
+                <p className='my-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rerum impedit nesciunt ipsa consequuntur quod similique corrupti blanditiis accusamus inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rerum impedit nesciunt ipsa consequuntur quod similique corrupti blanditiis accusamus inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rerum impedit nesciunt ipsa consequuntur quod similique corrupti blanditiis accusamus inventore. </p>
             </div>
         </div>
     )
