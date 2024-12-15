@@ -37,7 +37,7 @@ const CreateBook = () => {
         <BackButton />
         <h1 className='text-3xl ml-4'>Create Book</h1>
       </div>
-      {loading && <Spinner />}
+      {loading ? <Spinner /> : ''}
       <div className='p-4'>
         <div className='flex flex-col border-2 border-sky-400 rounded-xl w-full p-4'>
           <div className='my-4'>
