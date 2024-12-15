@@ -33,9 +33,9 @@ const BooksSingleCard = ({ book, handleDelete }) => {
                 <Link to={`/books/edit/${book._id}`}>
                     <AiOutlineEdit className='text-yellow-800 text-2xl hover:text-black' />
                 </Link>
-                <button to={`/books/delete/${book._id}`}>
+                <Link to={`/books/delete/${book._id}`}>
                     <MdOutlineDelete className='text-red-800 text-2xl hover:text-black' />
-                </button>
+                </Link>
             </div>
             {
                 showModel && (
